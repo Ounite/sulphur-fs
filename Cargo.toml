@@ -1,0 +1,10 @@
+workspace = { members = ["sofstool"] }
+
+[package]
+name = "sulphur-fs"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = "symbols"
+lto = "thin"
